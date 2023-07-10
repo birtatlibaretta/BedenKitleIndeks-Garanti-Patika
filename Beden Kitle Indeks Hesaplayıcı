@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Örnek {
+   public static void main(String args[]) {
+      Scanner sc = new Scanner(System.in);
+      System.out.print("Kilonuzu Giriniz: ");
+      double kilo = sc.nextDouble();
+      System.out.print("
+Boyunuzu Giriniz: ");
+      double boy = sc.nextDouble();
+      double Indeks = kilo / (boy * boy);
+      System.out.print("
+Vücut Kitle İndeksiniz " + VKİ + " kg/m2");
+   }
+}
